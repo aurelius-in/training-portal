@@ -16,5 +16,77 @@
         "description": "This free course introduces generative AI and large language models, focusing on Google’s tools and ethical practices. It takes approximately 8.5 hours to complete.",
         "category": "Generative AI",
         "level": "Intermediate"
+    },
+    {
+        "title": "IBM Introduction to AI",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-for-everyone",
+        "description": "This eight-hour course covers a wide range of AI topics, including ethical concerns. It can be audited for free on Coursera.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "Oxford AI Program",
+        "provider": "University of Oxford",
+        "platform": "Saïd Business School",
+        "link": "https://www.sbs.ox.ac.uk/programmes/oxford-ai-programme",
+        "description": "This comprehensive six-week online course is targeted at business leaders and IT managers. It costs $2,748 and offers a certification upon completion.",
+        "category": "Business",
+        "level": "Advanced"
+    },
+    {
+        "title": "Harvard CS50 AI",
+        "provider": "Harvard University",
+        "platform": "edX",
+        "link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python",
+        "description": "This seven-week course covers probability, logical inference, machine learning, and more. It is free, with an optional upgrade for certification.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Stanford AI",
+        "provider": "Stanford University",
+        "platform": "Udacity",
+        "link": "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271",
+        "description": "This 16-week course covers AI fundamentals and applications, taught by renowned computer scientists Sebastian Thrun and Peter Norvig.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "AI for Business",
+        "provider": "Udemy",
+        "platform": "Udemy",
+        "link": "https://www.udemy.com/course/artificial-intelligence-for-business/",
+        "description": "This 15-hour course explores business applications of AI, requiring a basic understanding of high school math and Python programming.",
+        "category": "Business",
+        "level": "Intermediate"
+    },
+    {
+        "title": "IBM Applied AI",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ibm-applied-ai",
+        "description": "This seven-month program teaches AI-powered applications, including chatbots and machine learning, using Python and IBM’s Watson AI service.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "MIT AI Strategy",
+        "provider": "MIT Sloan School of Management",
+        "platform": "MIT Executive Education",
+        "link": "https://executive.mit.edu/course/ai-and-business-strategy",
+        "description": "This course covers AI’s implications for business strategy, helping professionals create a compelling business case for AI integration.",
+        "category": "Business",
+        "level": "Advanced"
+    },
+    {
+        "title": "IBM AI Applications",
+        "provider": "IBM",
+        "platform": "edX",
+        "link": "https://www.edx.org/course/ai-applications-with-watson",
+        "description": "This intermediate-level course focuses on using IBM’s Watson for smarter AI applications. It is free, with an optional upgrade for certification.",
+        "category": "Technical",
+        "level": "Intermediate"
     }
-    ]
+]

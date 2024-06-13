@@ -1,0 +1,47 @@
+[
+    {
+        "title": "AI for Everyone",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-for-everyone",
+        "description": "This course, led by Andrew Ng, is designed for non-technical professionals and covers the impact of AI on business and society. It is free and takes about 10 hours to complete.",
+        "category": "Business",
+        "level": "Beginner"
+    },
+    {
+        "title": "Structuring Machine Learning Projects",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/machine-learning-projects",
+        "description": "This course focuses on how to structure machine learning projects to ensure success. It is suitable for beginners and covers key strategies and best practices for working on AI projects.",
+        "category": "Business",
+        "level": "Beginner"
+    },
+    {
+        "title": "Generative AI for Everyone",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/generative-ai",
+        "description": "This course provides a comprehensive introduction to generative AI, covering its applications, impact on various industries, and how businesses can leverage it. It is designed for beginners without a technical background.",
+        "category": "Business",
+        "level": "Beginner"
+    },
+    {
+        "title": "Building Systems with the ChatGPT API",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/building-systems-chatgpt-api",
+        "description": "This project-based course teaches how to build AI systems using the ChatGPT API, focusing on practical applications for businesses. It is aimed at beginners with no prior coding experience.",
+        "category": "Business",
+        "level": "Beginner"
+    },
+    {
+        "title": "AI and Public Health",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-public-health",
+        "description": "This course explores the intersection of AI and public health, discussing how AI technologies can be used to address public health challenges. It is designed for beginners interested in the application of AI in health-related fields.",
+        "category": "Business",
+        "level": "Beginner"
+    }
+]

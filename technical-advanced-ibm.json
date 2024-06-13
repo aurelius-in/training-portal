@@ -1,0 +1,47 @@
+[
+    {
+        "title": "IBM AI Engineering Professional Certificate",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ai-engineering",
+        "description": "This professional certificate program covers advanced AI topics, including machine learning, deep learning, and neural networks. It prepares learners to develop and deploy AI models.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "IBM AI Developer Professional Certificate",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ai-developer",
+        "description": "This certificate focuses on building AI applications using IBM Watson and other AI tools. It covers AI fundamentals, application development, and advanced topics such as natural language processing and computer vision.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "Advanced Data Science with IBM Specialization",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/advanced-data-science-ibm",
+        "description": "This specialization covers advanced data science topics, including massive parallel data processing, data exploration and visualization, and advanced machine learning techniques.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "Applied AI with DeepLearning",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/applied-ai-deeplearning",
+        "description": "This course covers the application of AI and deep learning in real-world scenarios. Learners will work on projects to develop AI solutions using advanced deep learning techniques.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "AI Capstone Project with Deep Learning",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-capstone",
+        "description": "This capstone project allows learners to apply deep learning and AI skills to real-world problems. It includes building and deploying AI models and justifying architectural decisions.",
+        "category": "Technical",
+        "level": "Advanced"
+    }
+]

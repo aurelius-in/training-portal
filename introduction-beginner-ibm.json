@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Introduction to Artificial Intelligence (AI)",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-for-everyone",
+        "description": "This course covers the fundamentals of AI, its applications, and the ethical considerations surrounding its use. It is designed for beginners and includes practical examples to illustrate AI concepts.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "AI Foundations for Everyone",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-foundations-for-everyone",
+        "description": "This beginner-level course provides a comprehensive overview of AI, its impact on various industries, and how it is transforming the workplace. It also includes modules on IBM's AI tools and services.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "Introduction to Artificial Intelligence",
+        "provider": "IBM",
+        "platform": "IBM SkillsBuild",
+        "link": "https://skillsbuild.org/courses/introduction-to-ai",
+        "description": "This course introduces the basics of AI, its applications, and the foundational concepts that drive AI technologies. It is suitable for anyone looking to understand AI without prior technical knowledge.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "AI for Business Leaders",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-for-business-leaders",
+        "description": "Designed for business leaders, this course covers how AI can be leveraged in business settings, the strategic implications of AI adoption, and real-world case studies.",
+        "category": "Introduction",
+        "level": "Beginner"
+    }
+]

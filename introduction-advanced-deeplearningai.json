@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Deep Learning Specialization",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/deep-learning",
+        "description": "This specialization covers the foundational aspects of deep learning, including neural networks, hyperparameter tuning, regularization, and optimization. It also delves into advanced topics like convolutional and recurrent neural networks, sequence models, and more.",
+        "category": "Introduction",
+        "level": "Advanced"
+    },
+    {
+        "title": "TensorFlow: Advanced Techniques Specialization",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/tensorflow-advanced-techniques",
+        "description": "This specialization teaches advanced TensorFlow techniques, including custom models, layers, and loss functions, as well as distributed training and advanced computer vision applications.",
+        "category": "Introduction",
+        "level": "Advanced"
+    },
+    {
+        "title": "Generative AI with Large Language Models",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/generative-ai",
+        "description": "This course covers the detailed workings of large language models (LLMs), including the transformer architecture, training, fine-tuning, and deployment for various applications. It also discusses the practical use of empirical scaling laws and deployment methods.",
+        "category": "Introduction",
+        "level": "Advanced"
+    },
+    {
+        "title": "Advanced Computer Vision with TensorFlow",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/advanced-computer-vision-with-tensorflow",
+        "description": "This course explores advanced computer vision techniques, including image segmentation, object detection, and model interpretability with TensorFlow. It covers transfer learning and instance segmentation using FCN and U-Net architectures.",
+        "category": "Introduction",
+        "level": "Advanced"
+    },
+    {
+        "title": "Generative Adversarial Networks (GANs) Specialization",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/generative-adversarial-networks-gans",
+        "description": "This specialization provides an in-depth understanding of GANs, covering image generation, cycleGANs, Pix2Pix, and privacy preservation. It includes practical projects to apply these techniques in real-world scenarios.",
+        "category": "Introduction",
+        "level": "Advanced"
+    }
+]

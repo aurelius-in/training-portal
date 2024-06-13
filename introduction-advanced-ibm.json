@@ -1,0 +1,47 @@
+[
+    {
+        "title": "IBM AI Engineering Professional Certificate",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ai-engineering",
+        "description": "This professional certificate program covers advanced AI topics, including machine learning, deep learning, and neural networks. It is designed to equip learners with practical skills to develop and deploy AI models.",
+        "category": "Introduction",
+        "level": "Advanced"
+    },
+    {
+        "title": "IBM AI Developer Professional Certificate",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ai-developer",
+        "description": "This certificate program focuses on building AI applications using IBM Watson and other AI tools. It covers advanced topics such as natural language processing and computer vision.",
+        "category": "Introduction",
+        "level": "Advanced"
+    },
+    {
+        "title": "Generative AI for Business",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/generative-ai-business",
+        "description": "This course explores the use of generative AI in business contexts, including marketing and customer engagement. It covers ethical considerations and implementation strategies for advanced AI technologies.",
+        "category": "Introduction",
+        "level": "Advanced"
+    },
+    {
+        "title": "AI for Everyone: Master the Basics",
+        "provider": "IBM",
+        "platform": "edX",
+        "link": "https://www.edx.org/course/ai-for-everyone-master-the-basics",
+        "description": "This course provides a comprehensive overview of AI, including its history, applications, and ethical issues. It is suitable for learners looking to understand AI fundamentals and its impact on various industries.",
+        "category": "Introduction",
+        "level": "Advanced"
+    },
+    {
+        "title": "Artificial Intelligence",
+        "provider": "IBM",
+        "platform": "Simplilearn",
+        "link": "https://www.simplilearn.com/artificial-intelligence-course",
+        "description": "This course covers advanced AI techniques, including deep learning and neural networks. It includes hands-on projects and case studies to apply AI concepts in real-world scenarios.",
+        "category": "Introduction",
+        "level": "Advanced"
+    }
+]

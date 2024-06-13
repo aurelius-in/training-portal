@@ -8,7 +8,6 @@ function populateFilters() {
     const levelFilter = document.getElementById('levelFilter');
     const providerFilter = document.getElementById('providerFilter');
 
-    // Example data for dropdowns
     const categories = ['Introduction', 'Business', 'Technical'];
     const levels = ['Beginner', 'Intermediate', 'Advanced'];
     const providers = ['DeepLearning.AI', 'IBM', 'Google Cloud', 'University of Oxford'];
@@ -44,43 +43,19 @@ function populateFilters() {
 }
 
 function loadInitialCourses() {
-    const courseList = document.getElementById('courseList');
-
-    // Clear existing courses
-    courseList.innerHTML = '';
-
-    // Fetch initial JSON data (example JSON file: introduction-beginner-deeplearningai.json)
-    fetch('introduction-beginner-deeplearningai.json')
-        .then(response => response.json())
-        .then(data => {
-            data.forEach(course => {
-                const courseItem = document.createElement('div');
-                courseItem.className = 'course-item';
-                courseItem.innerHTML = `
-                    <h2>${course.title}</h2>
-                    <p><strong>Provider:</strong> ${course.provider}</p>
-                    <p><strong>Description:</strong> ${course.description}</p>
-                    <p><strong>Category:</strong> ${course.category}</p>
-                    <p><strong>Level:</strong> ${course.level}</p>
-                `;
-                courseList.appendChild(courseItem);
-            });
-        })
-        .catch(error => console.error('Error fetching initial courses:', error));
+    fetchCourses('introduction', 'beginner', 'deeplearningai');
 }
 
-function filterCourses() {
-    const category = document.getElementById('categoryFilter').value;
-    const level = document.getElementById('levelFilter').value;
-    const provider = document.getElementById('providerFilter').value.replace(/\s+/g, '');
+function fetchCourses(category, level, provider) {
     const courseList = document.getElementById('courseList');
 
     // Clear existing courses
     courseList.innerHTML = '';
 
-    // Fetch courses based on filters
+    // Construct the JSON filename
     const jsonFileName = `${category}-${level}-${provider}.json`;
 
+    // Fetch courses based on the constructed filename
     fetch(jsonFileName)
         .then(response => response.json())
         .then(data => {
@@ -101,5 +76,13 @@ function filterCourses() {
                 courseList.innerHTML = '<p>No courses found for the selected filters.</p>';
             }
         })
-        .catch(error => console.error('Error fetching filtered courses:', error));
+        .catch(error => console.error('Error fetching courses:', error));
+}
+
+function filterCourses() {
+    const category = document.getElementById('categoryFilter').value;
+    const level = document.getElementById('levelFilter').value;
+    const provider = document.getElementById('providerFilter').value.replace(/\s+/g, '');
+    
+    fetchCourses(category, level, provider);
 }

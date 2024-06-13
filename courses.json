@@ -1,52 +1,20 @@
-{
-    "courses": [
-        {
-            "title": "Introduction to AI",
-            "description": "A comprehensive course on the basics of AI, covering its history, fundamental concepts, and real-world applications.",
-            "details": "Offered by HarvardX, this course covers the foundations of AI, including game-playing engines, handwriting recognition, and machine translation. It provides hands-on experience with Python libraries for machine learning.",
-            "link": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python"
-        },
-        {
-            "title": "Machine Learning for Business Leaders",
-            "description": "An in-depth course designed for business leaders, focusing on how to leverage machine learning to drive business value.",
-            "details": "This course on edX is tailored for business professionals, providing insights into leveraging machine learning for business applications.",
-            "link": "https://www.edx.org/course/machine-learning-for-business-professionals"
-        },
-        {
-            "title": "AI for Everyone: Master the Basics",
-            "description": "Understand what AI is, its applications, and its impact on our lives. No technical background needed.",
-            "details": "Offered by IBM on edX, this introductory course covers AI concepts, applications, and ethical considerations. It's designed for a broad audience, including those without a technical background.",
-            "link": "https://www.edx.org/course/ai-for-everyone-master-the-basics"
-        },
-        {
-            "title": "Generative AI for Everyone",
-            "description": "Explore the capabilities of generative AI and its applications in text, image, and code generation.",
-            "details": "This course by IBM on edX introduces generative AI, its capabilities, and applications across different domains.",
-            "link": "https://www.edx.org/course/introduction-to-generative-ai"
-        },
-        {
-            "title": "AI in Finance",
-            "description": "A tutorial on how AI is transforming the finance industry, including case studies and implementation strategies.",
-            "details": "This course on Coursera explores how AI is being applied in the finance industry, including practical case studies.",
-            "link": "https://www.coursera.org/learn/ai-finance"
-        },
-        {
-            "title": "Natural Language Processing",
-            "description": "Learn the basics of NLP and how to apply it to business problems through this hands-on tutorial.",
-            "details": "A comprehensive tutorial on Coursera covering NLP techniques and their business applications.",
-            "link": "https://www.coursera.org/learn/natural-language-processing"
-        },
-        {
-            "title": "Certified AI Practitioner",
-            "description": "Gain recognition as a certified AI practitioner with this comprehensive certification program.",
-            "details": "A professional certification on Coursera that validates skills in AI practices and principles.",
-            "link": "https://www.coursera.org/professional-certificates/ai-practitioner"
-        },
-        {
-            "title": "Machine Learning Certification",
-            "description": "Validate your machine learning expertise with this industry-recognized certification.",
-            "details": "An industry-recognized certification on Coursera for machine learning expertise.",
-            "link": "https://www.coursera.org/professional-certificates/machine-learning"
-        }
+[
+    {
+        "title": "AI for Everyone",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-for-everyone",
+        "description": "This course, led by Andrew Ng, is designed for non-technical professionals and covers the impact of AI on business and society. It is free and takes about 10 hours to complete.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "Google Cloud Introduction to Generative AI",
+        "provider": "Google Cloud",
+        "platform": "Google Cloud Skills Boost",
+        "link": "https://www.cloudskillsboost.google/paths/23",
+        "description": "This free course introduces generative AI and large language models, focusing on Google’s tools and ethical practices. It takes approximately 8.5 hours to complete.",
+        "category": "Generative AI",
+        "level": "Intermediate"
+    }
     ]
-}

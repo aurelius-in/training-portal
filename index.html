@@ -17,12 +17,23 @@
             <div class="filters">
                 <label for="categoryFilter">Category:</label>
                 <select id="categoryFilter" onchange="filterCourses()">
-                    <!-- Categories will be populated by JavaScript -->
+                    <option value="">Select Category</option>
                 </select>
                 <label for="levelFilter">Level:</label>
                 <select id="levelFilter" onchange="filterCourses()">
-                    <!-- Levels will be populated by JavaScript -->
+                    <option value="">Select Level</option>
                 </select>
                 <label for="providerFilter">Provider:</label>
                 <select id="providerFilter" onchange="filterCourses()">
-                    <!-- Providers will be
+                    <option value="">Select Provider</option>
+                </select>
+            </div>
+            <div id="courseList">
+                <!-- Courses will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="fetchCourses.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Deep Learning Specialization",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/deep-learning",
+        "description": "This specialization covers the foundational aspects of deep learning, including neural networks, hyperparameter tuning, regularization, and optimization. It also delves into advanced topics like convolutional and recurrent neural networks, sequence models, and more.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "TensorFlow Developer Professional Certificate",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/tensorflow",
+        "description": "This certificate program teaches how to build and deploy deep learning models using TensorFlow. It includes courses on neural networks, computer vision, natural language processing, and time series forecasting.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Generative AI with Large Language Models",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/generative-ai",
+        "description": "This course covers the detailed workings of large language models (LLMs), including the transformer architecture, training, fine-tuning, and deployment for various applications. It also discusses the practical use of empirical scaling laws and deployment methods.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Quantization in Depth",
+        "provider": "DeepLearning.AI",
+        "platform": "DeepLearning.AI",
+        "link": "https://www.deeplearning.ai/short-courses/quantization-in-depth/",
+        "description": "This course teaches model quantization methods to shrink model weights and maintain performance. It covers linear quantization techniques and building general-purpose quantizers in PyTorch.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Natural Language Processing Specialization",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/natural-language-processing",
+        "description": "This specialization covers the essential techniques in natural language processing, including sentiment analysis, machine translation, and text generation using neural networks.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "How Diffusion Models Work",
+        "provider": "DeepLearning.AI",
+        "platform": "DeepLearning.AI",
+        "link": "https://www.deeplearning.ai/short-courses/how-diffusion-models-work/",
+        "description": "This course explores diffusion models, including building and training your own models. It covers sampling, training diffusion models, and building neural networks for noise prediction.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Functions, Tools and Agents with LangChain",
+        "provider": "DeepLearning.AI",
+        "platform": "DeepLearning.AI",
+        "link": "https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/",
+        "description": "This course teaches how to use LangChain for building conversational agents and other LLM-based applications, focusing on recent advancements in LLM APIs and LangChain Expression Language (LCEL).",
+        "category": "Technical",
+        "level": "Intermediate"
+    }
+]

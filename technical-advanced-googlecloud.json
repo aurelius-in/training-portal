@@ -1,0 +1,48 @@
+[
+    {
+        "title": "Advanced Machine Learning on Google Cloud",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/advanced-machine-learning-google-cloud",
+        "description": "This course covers advanced machine learning techniques on Google Cloud, including TensorFlow and Cloud ML. It focuses on building and deploying scalable machine learning models.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "Machine Learning for Business Professionals",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/machine-learning-for-business-professionals",
+        "description": "This course provides business professionals with an understanding of machine learning concepts and how to apply them to solve business problems. It covers AI strategy and the use of AI to improve business outcomes.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "AI for Business Leaders",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-for-business-leaders",
+        "description": "Designed for business leaders, this course covers the strategic implications of AI and how it can be used to transform business operations. It includes case studies and practical insights.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "AI and Machine Learning with Google Cloud",
+        "provider": "Google Cloud",
+        "platform": "YouTube",
+        "link": "https://www.youtube.com/playlist?list=PLIivdWyY5sqJdmVMjLI8iCul14XkTRosn",
+        "description": "This YouTube playlist provides a comprehensive overview of AI and machine learning using Google Cloud services. It includes tutorials and demonstrations on various AI applications.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "Building Resilient Streaming Analytics Systems on Google Cloud",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/building-resilient-streaming-analytics-systems-google-cloud",
+        "description": "This course covers the design and implementation of resilient streaming analytics systems using Google Cloud. It focuses on real-time data processing and analytics for business applications.",
+        "category": "Technical",
+        "level": "Advanced"
+    }
+]
+

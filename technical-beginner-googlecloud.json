@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Google Cloud Platform Fundamentals: Core Infrastructure",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/gcp-fundamentals",
+        "description": "This course introduces important concepts and terminology for working with Google Cloud Platform (GCP). It provides an overview of GCP's core services, including computing, storage, and networking, as well as key resource and policy management tools.",
+        "category": "Technical",
+        "level": "Beginner"
+    },
+    {
+        "title": "Cloud Engineering with Google Cloud",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/cloud-engineering-gcp",
+        "description": "This professional certificate program provides hands-on training in the fundamental concepts and skills necessary to become a cloud engineer using Google Cloud Platform (GCP).",
+        "category": "Technical",
+        "level": "Beginner"
+    },
+    {
+        "title": "Google Cloud Platform Big Data and Machine Learning Fundamentals",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/gcp-big-data-ml-fundamentals",
+        "description": "This course introduces the Big Data and Machine Learning capabilities of Google Cloud Platform (GCP). It provides a hands-on introduction to the processing capabilities of BigQuery and the ML capabilities of TensorFlow.",
+        "category": "Technical",
+        "level": "Beginner"
+    }
+]

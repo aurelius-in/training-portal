@@ -42,49 +42,6 @@ function loadInitialCourses() {
     fetchCourses('introduction', 'beginner', 'deeplearningai');
 }
 
-function fetchCourses(category, level, provider) {
-    const courseList = document.getElementById('courseList');
-    courseList.innerHTML = '';
-
-    let jsonFileName = '';
-
-    if (category === 'business' && level === 'beginner' && provider === 'deeplearningai') {
-        jsonFileName = 'business-beginner-deeplearningai.json';
-    } else if (category === 'business' && level === 'beginner' && provider === 'googlecloud') {
-        jsonFileName = 'business-beginner-googlecloud.json';
-    } else if (category === 'business' && level === 'beginner' && provider === 'ibm') {
-        jsonFileName = 'business-beginner-ibm.json';
-    } else if (category === 'business' && level === 'beginner' && provider === 'universityofoxford') {
-        jsonFileName = 'business-beginner-universityofoxford.json';
-    } else if (category === 'business' && level === 'intermediate' && provider === 'deeplearningai') {
-        jsonFileName = 'business-intermediate-deeplearningai.json';
-    } // Add additional conditions for all other combinations
-
-    if (jsonFileName) {
-        fetch(jsonFileName)
-            .then(response => response.json())
-            .then(data => {
-                if (data.length > 0) {
-                    data.forEach(course => {
-                        const courseItem = document.createElement('div');
-                        courseItem.className = 'course-item';
-                        courseItem.innerHTML = `
-                            <h2>${course.title}</h2>
-                            <p><strong>Provider:</strong> ${course.provider}</p>
-                            <p><strong>Description:</strong> ${course.description}</p>
-                            <p><strong>Category:</strong> ${course.category}</p>
-                            <p><strong>Level:</strong> ${course.level}</p>
-                        `;
-                        courseList.appendChild(courseItem);
-                    });
-                } else {
-                    courseList.innerHTML = '<p>No courses found for the selected filters.</p>';
-                }
-            })
-            .catch(error => console.error('Error fetching courses:', error));
-    }
-}
-
 function filterCourses() {
     const category = document.getElementById('categoryFilter').value;
     const level = document.getElementById('levelFilter').value;

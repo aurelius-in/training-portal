@@ -16,49 +16,31 @@ header {
     height: auto;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-}
-
-nav button {
-    background-color: #444;
-    border: none;
-    color: white;
-    margin: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 18px; /* Increased font size for buttons */
-}
-
-nav button:hover {
-    background-color: #555;
-}
-
-.content-section {
-    display: none;
-    padding: 20px;
-}
-
 .filters {
     margin-top: 20px;
+    text-align: center;
 }
 
 .filters label {
     margin-right: 10px;
     font-size: 18px; /* Increased font size for labels */
+    font-weight: bold; /* Made the labels bold */
 }
 
 .filters select {
     margin-right: 20px;
     padding: 15px; /* Increased padding for select elements */
     font-size: 18px; /* Increased font size for select elements */
+    font-weight: bold; /* Made the select text bold */
 }
 
 #searchBar {
     padding: 15px; /* Increased padding for search bar */
     font-size: 18px; /* Increased font size for search bar */
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #courseList {

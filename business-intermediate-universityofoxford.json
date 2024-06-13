@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Oxford Artificial Intelligence Programme",
+        "provider": "University of Oxford",
+        "platform": "Saïd Business School",
+        "link": "https://www.sbs.ox.ac.uk/programmes/oxford-artificial-intelligence-programme",
+        "description": "This programme is designed for managers, business leaders, and technical professionals. It covers AI mechanics, potential, challenges, social implications, and ethics, providing a comprehensive understanding of AI and machine learning.",
+        "category": "Business",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Oxford Executive Diploma in Artificial Intelligence for Business",
+        "provider": "University of Oxford",
+        "platform": "Saïd Business School",
+        "link": "https://www.sbs.ox.ac.uk/programmes/oxford-executive-diploma-artificial-intelligence-business",
+        "description": "This diploma programme equips executives and technical specialists with tools to ethically leverage AI in their organisations. It includes modules on technological disruption, big data and machine learning, AI in practice, and strategic leadership.",
+        "category": "Business",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Technology and AI: Online Courses",
+        "provider": "University of Oxford",
+        "platform": "Oxford University Department for Continuing Education",
+        "link": "https://www.conted.ox.ac.uk/technology-and-ai",
+        "description": "These online courses offer flexible learning options covering various aspects of AI and technology. They are designed for professionals and those with prior knowledge of AI.",
+        "category": "Business",
+        "level": "Intermediate"
+    }
+]

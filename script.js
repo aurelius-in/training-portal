@@ -57,7 +57,7 @@ function fetchCourses(category, level, provider) {
                     const courseItem = document.createElement('div');
                     courseItem.className = 'course-item';
                     courseItem.innerHTML = `
-                        <h2>${course.title}</h2>
+                        <h2><a href="${course.link}" target="_blank">${course.title}</a></h2>
                         <p><strong>Provider:</strong> ${course.provider}</p>
                         <p><strong>Description:</strong> ${course.description}</p>
                         <p><strong>Category:</strong> ${course.category}</p>

@@ -9,46 +9,30 @@
 <body>
     <header>
         <img src="img/portal-banner.png" alt="AI Training Portal" class="banner-img">
-        <nav>
-            <button onclick="showSection('courses')">Courses</button>
-            <button onclick="showSection('tutorials')">Tutorials</button>
-            <button onclick="showSection('certifications')">Certifications</button>
-        </nav>
     </header>
     <main>
         <section id="courses" class="content-section">
             <h1>Courses</h1>
-            <input type="text" id="searchBar" placeholder="Search for courses...">
             <div class="filters">
                 <label for="categoryFilter">Category:</label>
                 <select id="categoryFilter" onchange="filterCourses()">
-                    <option value="all">All</option>
-                    <!-- Categories will be populated by JavaScript -->
+                    <option value="">Select Category</option>
                 </select>
                 <label for="levelFilter">Level:</label>
                 <select id="levelFilter" onchange="filterCourses()">
-                    <option value="all">All</option>
-                    <!-- Levels will be populated by JavaScript -->
+                    <option value="">Select Level</option>
                 </select>
                 <label for="providerFilter">Provider:</label>
                 <select id="providerFilter" onchange="filterCourses()">
-                    <option value="all">All</option>
-                    <!-- Providers will be populated by JavaScript -->
+                    <option value="">Select Provider</option>
                 </select>
             </div>
             <div id="courseList">
                 <!-- Courses will be displayed here -->
             </div>
         </section>
-        <section id="tutorials" class="content-section">
-            <h1>Tutorials</h1>
-            <!-- Tutorials content -->
-        </section>
-        <section id="certifications" class="content-section">
-            <h1>Certifications</h1>
-            <!-- Certifications content -->
-        </section>
     </main>
+    <script src="fetchCourses.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

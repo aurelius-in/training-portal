@@ -44,15 +44,12 @@ function populateFilters() {
 }
 
 function loadInitialCourses() {
-    const category = document.getElementById('categoryFilter').value;
-    const level = document.getElementById('levelFilter').value;
-    const provider = document.getElementById('providerFilter').value;
     const courseList = document.getElementById('courseList');
 
     // Clear existing courses
     courseList.innerHTML = '';
 
-    // Fetch initial JSON data (example JSON file: introduction-beginner.json)
+    // Fetch initial JSON data (example JSON file: introduction-beginner-ibm.json)
     fetch('introduction-beginner-ibm.json')
         .then(response => response.json())
         .then(data => {
@@ -109,12 +106,4 @@ function filterCourses() {
             }
         })
         .catch(error => console.error('Error fetching filtered courses:', error));
-}
-
-function showSection(sectionId) {
-    const sections = document.querySelectorAll('.content-section');
-    sections.forEach(section => {
-        section.style.display = 'none';
-    });
-    document.getElementById(sectionId).style.display = 'block';
 }

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Introduction to Generative AI",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/introduction-to-generative-ai",
+        "description": "This introductory course explains what generative AI is, its uses, and how it differs from traditional machine learning methods. It covers Google Tools to help you develop your own generative AI applications.",
+        "category": "Business",
+        "level": "Beginner"
+    },
+    {
+        "title": "Google AI Essentials",
+        "provider": "Google",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/google-ai-essentials",
+        "description": "This self-paced course is designed to help people across roles and industries get essential AI skills to boost their productivity. It includes practical, hands-on experience with AI tools.",
+        "category": "Business",
+        "level": "Beginner"
+    },
+    {
+        "title": "Introduction to Generative AI",
+        "provider": "Google Cloud",
+        "platform": "Google Cloud Skills Boost",
+        "link": "https://www.cloudskillsboost.google/course_templates/536",
+        "description": "This microlearning course aims to explain what generative AI is and how it is used. It also covers Google tools to help you develop your own generative AI applications.",
+        "category": "Business",
+        "level": "Beginner"
+    },
+    {
+        "title": "Developing Applications with Google Cloud: Foundations",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/developing-applications-google-cloud",
+        "description": "This course covers the fundamentals of application development on Google Cloud, including best practices for cloud applications and an introduction to generative AI.",
+        "category": "Business",
+        "level": "Beginner"
+    }
+]

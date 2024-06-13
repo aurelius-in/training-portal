@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Artificial Intelligence Concepts: An Introduction (Online)",
+        "provider": "University of Oxford",
+        "platform": "Oxford University Department for Continuing Education",
+        "link": "https://www.conted.ox.ac.uk/courses/artificial-intelligence-concepts-an-introduction-online",
+        "description": "This course provides an essential introduction to the key topics underpinning AI, including its historical development, theoretical foundations, basic architecture, modern applications, and ethical implications. It is aimed at a general audience, including professionals whose work brings them into contact with AI, and those with no prior knowledge of AI.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "Oxford Artificial Intelligence Programme",
+        "provider": "University of Oxford",
+        "platform": "Saïd Business School",
+        "link": "https://www.sbs.ox.ac.uk/programmes/oxford-artificial-intelligence-programme",
+        "description": "Designed for managers, business leaders, and technical professionals, this programme provides a comprehensive exploration of AI and machine learning. It covers the mechanics behind AI, its potential, and its challenges, offering a robust framework to examine the social implications and ethics of AI.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "Oxford Executive Diploma in Artificial Intelligence for Business",
+        "provider": "University of Oxford",
+        "platform": "Saïd Business School",
+        "link": "https://www.sbs.ox.ac.uk/programmes/oxford-executive-diploma-artificial-intelligence-business",
+        "description": "This diploma is designed to empower executives, technical specialists, and future leaders with practical tools to ethically leverage AI in their organisations. The programme includes modules on technological disruption, big data and machine learning, AI in practice, and strategic leadership in the age of AI.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "Technology and AI: Online Courses",
+        "provider": "University of Oxford",
+        "platform": "Oxford University Department for Continuing Education",
+        "link": "https://www.conted.ox.ac.uk/technology-and-ai",
+        "description": "These online courses provide flexible learning options covering various aspects of AI and technology. They are designed for a general audience, including professionals and those with no prior knowledge of AI.",
+        "category": "Introduction",
+        "level": "Beginner"
+    }
+]

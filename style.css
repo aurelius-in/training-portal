@@ -2,12 +2,24 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 header {
     background-color: #333;
     color: white;
     padding: 10px 0;
     text-align: center;
+}
+.banner {
+    background-color: #444;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
 }
 nav button {
     background-color: #444;
@@ -24,11 +36,16 @@ nav button:hover {
     display: none;
     padding: 20px;
 }
+.filters {
+    margin-top: 20px;
+}
 #courseList {
     margin-top: 20px;
 }
 .course-item {
+    background-color: white;
     border: 1px solid #ddd;
     padding: 10px;
     margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }

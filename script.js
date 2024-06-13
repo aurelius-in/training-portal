@@ -32,7 +32,7 @@ function populateFilters() {
     // Populate Provider Filter
     providers.forEach(provider => {
         const option = document.createElement('option');
-        option.value = provider.toLowerCase();
+        option.value = provider.toLowerCase().replace(/\s+/g, '');
         option.text = provider;
         providerFilter.appendChild(option);
     });
@@ -49,8 +49,8 @@ function loadInitialCourses() {
     // Clear existing courses
     courseList.innerHTML = '';
 
-    // Fetch initial JSON data (example JSON file: introduction-beginner-ibm.json)
-    fetch('introduction-beginner-ibm.json')
+    // Fetch initial JSON data (example JSON file: business-beginner-googlecloud.json)
+    fetch('business-beginner-googlecloud.json')
         .then(response => response.json())
         .then(data => {
             data.forEach(course => {
@@ -72,24 +72,20 @@ function loadInitialCourses() {
 function filterCourses() {
     const category = document.getElementById('categoryFilter').value;
     const level = document.getElementById('levelFilter').value;
-    const provider = document.getElementById('providerFilter').value;
+    const provider = document.getElementById('providerFilter').value.replace(/\s+/g, '');
     const courseList = document.getElementById('courseList');
 
     // Clear existing courses
     courseList.innerHTML = '';
 
-    // Fetch courses based on filters (you'll need to dynamically determine the JSON file based on filters)
+    // Fetch courses based on filters
     const jsonFileName = `${category}-${level}-${provider}.json`; // Example file naming convention
 
     fetch(jsonFileName)
         .then(response => response.json())
         .then(data => {
-            const filteredCourses = data.filter(course =>
-                course.category === category && course.level === level && course.provider === provider
-            );
-
-            if (filteredCourses.length > 0) {
-                filteredCourses.forEach(course => {
+            if (data.length > 0) {
+                data.forEach(course => {
                     const courseItem = document.createElement('div');
                     courseItem.className = 'course-item';
                     courseItem.innerHTML = `

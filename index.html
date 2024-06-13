@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Training Portal</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .heading {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -12,7 +21,7 @@
     </header>
     <main>
         <section id="courses" class="content-section">
-            <h1>Courses</h1>
+            <div class="heading">Select Learning Preferences</div>
             <div class="filters">
                 <label for="categoryFilter">Category:</label>
                 <select id="categoryFilter" onchange="filterCourses()">

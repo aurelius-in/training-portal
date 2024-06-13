@@ -49,8 +49,8 @@ function loadInitialCourses() {
     // Clear existing courses
     courseList.innerHTML = '';
 
-    // Fetch initial JSON data (example JSON file: business-beginner-googlecloud.json)
-    fetch('business-beginner-googlecloud.json')
+    // Fetch initial JSON data (example JSON file: introduction-beginner-deeplearningai.json)
+    fetch('introduction-beginner-deeplearningai.json')
         .then(response => response.json())
         .then(data => {
             data.forEach(course => {
@@ -79,7 +79,7 @@ function filterCourses() {
     courseList.innerHTML = '';
 
     // Fetch courses based on filters
-    const jsonFileName = `${category}-${level}-${provider}.json`; // Example file naming convention
+    const jsonFileName = `${category}-${level}-${provider}.json`;
 
     fetch(jsonFileName)
         .then(response => response.json())

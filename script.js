@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     populateFilters();
-    filterCourses();
+    filterCourses(); // Call filterCourses() to display default content
 });
 
 function populateFilters() {
@@ -41,13 +41,43 @@ function populateFilters() {
 }
 
 function filterCourses() {
-    // Logic to filter and display courses based on the selected filters
     const category = document.getElementById('categoryFilter').value;
     const level = document.getElementById('levelFilter').value;
     const provider = document.getElementById('providerFilter').value;
+    const courseList = document.getElementById('courseList');
 
-    // Logic to filter courses and update the course list
-    console.log(`Filtering courses by category: ${category}, level: ${level}, provider: ${provider}`);
+    // Clear existing courses
+    courseList.innerHTML = '';
+
+    // Example course data - replace this with actual course data or fetch from your JSON files
+    const courses = [
+        { title: "Course 1", category: "introduction", level: "beginner", provider: "deeplearning.ai", description: "Description 1" },
+        { title: "Course 2", category: "business", level: "beginner", provider: "ibm", description: "Description 2" },
+        { title: "Course 3", category: "technical", level: "beginner", provider: "google cloud", description: "Description 3" },
+        { title: "Course 4", category: "introduction", level: "intermediate", provider: "university of oxford", description: "Description 4" }
+        // Add more courses as needed
+    ];
+
+    const filteredCourses = courses.filter(course =>
+        course.category === category && course.level === level && course.provider === provider
+    );
+
+    if (filteredCourses.length > 0) {
+        filteredCourses.forEach(course => {
+            const courseItem = document.createElement('div');
+            courseItem.className = 'course-item';
+            courseItem.innerHTML = `
+                <h2>${course.title}</h2>
+                <p><strong>Provider:</strong> ${course.provider}</p>
+                <p><strong>Description:</strong> ${course.description}</p>
+                <p><strong>Category:</strong> ${course.category}</p>
+                <p><strong>Level:</strong> ${course.level}</p>
+            `;
+            courseList.appendChild(courseItem);
+        });
+    } else {
+        courseList.innerHTML = '<p>No courses found for the selected filters.</p>';
+    }
 }
 
 function showSection(sectionId) {

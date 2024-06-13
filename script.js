@@ -6,9 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
 function populateFilters() {
     const categoryFilter = document.getElementById('categoryFilter');
     const levelFilter = document.getElementById('levelFilter');
+    const providerFilter = document.getElementById('providerFilter');
 
     const categories = ['Introduction', 'Business', 'Technical'];
     const levels = ['Beginner', 'Intermediate', 'Advanced'];
+    const providers = ['DeepLearning.AI', 'IBM', 'Google Cloud', 'University of Oxford'];
 
     categories.forEach(category => {
         const option = document.createElement('option');
@@ -24,8 +26,16 @@ function populateFilters() {
         levelFilter.appendChild(option);
     });
 
+    providers.forEach(provider => {
+        const option = document.createElement('option');
+        option.value = provider.toLowerCase().replace(/\s+/g, '');
+        option.text = provider;
+        providerFilter.appendChild(option);
+    });
+
     categoryFilter.selectedIndex = 0;
     levelFilter.selectedIndex = 0;
+    providerFilter.selectedIndex = 1; // Default to IBM
 }
 
 function loadInitialCourses() {
@@ -65,7 +75,7 @@ function fetchCourses(category, level, provider) {
 function filterCourses() {
     const category = document.getElementById('categoryFilter').value;
     const level = document.getElementById('levelFilter').value;
-    const provider = 'ibm';  // Default provider
+    const provider = document.getElementById('providerFilter').value.replace(/\s+/g, '');
 
     fetchCourses(category, level, provider);
 }

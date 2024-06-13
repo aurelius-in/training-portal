@@ -1,0 +1,47 @@
+[
+    {
+        "title": "IBM AI Engineering Professional Certificate",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ai-engineering",
+        "description": "This certificate program covers foundational and advanced topics in AI engineering, including machine learning, deep learning, and neural networks. It prepares learners to develop and deploy AI models.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "IBM AI Developer Professional Certificate",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ai-developer",
+        "description": "This certificate focuses on building AI applications using IBM Watson and other AI tools. It covers AI fundamentals, application development, and advanced topics such as natural language processing and computer vision.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Deep Learning with TensorFlow",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/deep-learning-tensorflow",
+        "description": "This course teaches the foundational concepts and advanced applications of deep learning using TensorFlow. It includes hands-on projects to build and optimize deep learning models.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Applied AI with DeepLearning",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/applied-ai-deeplearning",
+        "description": "This course covers the application of AI and deep learning in real-world scenarios. Learners will work on projects to develop AI solutions using advanced deep learning techniques.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Advanced Machine Learning and Signal Processing",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/advanced-machine-learning-signal-processing",
+        "description": "This course dives into advanced machine learning techniques and their applications in signal processing. It includes practical exercises to implement and test these techniques using real data.",
+        "category": "Technical",
+        "level": "Intermediate"
+    }
+]

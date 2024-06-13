@@ -5,36 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Training Portal</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="img/portal-banner.png" alt="AI Training Portal Banner" class="banner">
+        <nav>
+            <button onclick="showSection('courses')">Courses</button>
+            <button onclick="showSection('tutorials')">Tutorials</button>
+            <button onclick="showSection('certifications')">Certifications</button>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#tutorials">Tutorials</a></li>
-            <li><a href="#certification">Certification Programs</a></li>
-        </ul>
-    </nav>
     <main>
-        <section id="courses">
-            <h2>Courses</h2>
-            <div id="courses-list"></div>
+        <section id="courses" class="content-section">
+            <h1>Courses</h1>
+            <input type="text" id="searchBar" placeholder="Search for courses...">
+            <div>
+                <label for="categoryFilter">Category:</label>
+                <select id="categoryFilter" onchange="filterCourses()">
+                    <option value="all">All</option>
+                    <option value="Introduction">Introduction</option>
+                    <option value="Generative AI">Generative AI</option>
+                    <!-- Add more categories as needed -->
+                </select>
+                <label for="levelFilter">Level:</label>
+                <select id="levelFilter" onchange="filterCourses()">
+                    <option value="all">All</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <!-- Add more levels as needed -->
+                </select>
+            </div>
+            <div id="courseList">
+                <!-- Courses will be displayed here -->
+            </div>
         </section>
-        <section id="tutorials">
-            <h2>Tutorials</h2>
-            <div id="tutorials-list"></div>
+        <section id="tutorials" class="content-section">
+            <h1>Tutorials</h1>
+            <!-- Tutorials content -->
         </section>
-        <section id="certification">
-            <h2>Certification Programs</h2>
-            <div id="certification-list"></div>
+        <section id="certifications" class="content-section">
+            <h1>Certifications</h1>
+            <!-- Certifications content -->
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 AI Training Portal. All rights reserved.</p>
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>

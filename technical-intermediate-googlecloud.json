@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Smart Analytics, Machine Learning, and AI on Google Cloud",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/smart-analytics-machine-learning-ai-google-cloud",
+        "description": "This course covers integrating machine learning into data pipelines on Google Cloud, including AutoML and custom ML models. It provides a comprehensive overview of building and managing ML solutions.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Managing Machine Learning Projects with Google Cloud",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/managing-machine-learning-projects-google-cloud",
+        "description": "This course helps learners understand the key considerations for managing ML projects, including assessing feasibility, data governance, and creating a culture of innovation.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Digital Transformation Using AI/ML with Google Cloud",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/digital-transformation-using-ai-ml-google-cloud",
+        "description": "This specialization covers how AI and ML can drive digital transformation in businesses. It includes courses on cloud concepts, application modernization, and managing ML projects.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Building Machine Learning Solutions with Vertex AI",
+        "provider": "Google Cloud",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/building-ml-solutions-vertex-ai",
+        "description": "This course focuses on using Google Cloud's Vertex AI to build and deploy machine learning models. It includes hands-on labs and projects to reinforce learning.",
+        "category": "Technical",
+        "level": "Intermediate"
+    },
+    {
+        "title": "AI for Business Leaders",
+        "provider": "Google Cloud",
+        "platform": "Google Cloud Skills Boost",
+        "link": "https://cloud.google.com/training/courses/ai-for-business-leaders",
+        "description": "This course is designed for business leaders to understand the fundamentals of AI and its strategic implications for business transformation.",
+        "category": "Technical",
+        "level": "Intermediate"
+    }
+]

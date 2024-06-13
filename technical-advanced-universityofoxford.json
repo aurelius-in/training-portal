@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Artificial Intelligence: Generative AI, Cloud and MLOps (Online)",
+        "provider": "University of Oxford",
+        "platform": "Oxford University Department for Continuing Education",
+        "link": "https://www.conted.ox.ac.uk/courses/artificial-intelligence-generative-ai-cloud-and-mlops-online",
+        "description": "This course provides an in-depth understanding of advanced AI topics such as generative AI, cloud computing, and MLOps. It is designed for intermediate to advanced learners looking to enhance their practical knowledge of AI technologies.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "Oxford Executive Diploma in Artificial Intelligence for Business",
+        "provider": "University of Oxford",
+        "platform": "Saïd Business School",
+        "link": "https://www.sbs.ox.ac.uk/programmes/oxford-executive-diploma-artificial-intelligence-business",
+        "description": "This diploma equips executives and future leaders with tools to ethically leverage AI in their organisations. It includes modules on technological disruption, big data, machine learning, AI in practice, and strategic leadership.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "Autonomous Intelligent Machines and Systems (EPSRC CDT)",
+        "provider": "University of Oxford",
+        "platform": "Oxford University",
+        "link": "https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science",
+        "description": "This programme provides in-depth knowledge and expertise in autonomous intelligent systems, including robotics and vision, machine learning, control and verification, and cyber-physical systems.",
+        "category": "Technical",
+        "level": "Advanced"
+    },
+    {
+        "title": "MSc in Advanced Computer Science",
+        "provider": "University of Oxford",
+        "platform": "Oxford University",
+        "link": "https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science",
+        "description": "This master's programme combines theory and practice, teaching advanced techniques and ideas in AI, machine learning, and other areas. It includes mathematical models, data analysis, and applications of AI in various domains.",
+        "category": "Technical",
+        "level": "Advanced"
+    }
+]

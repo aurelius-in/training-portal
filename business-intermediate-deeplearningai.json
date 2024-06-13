@@ -1,0 +1,47 @@
+[
+    {
+        "title": "AI for Business Leaders",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-for-business-leaders",
+        "description": "This course is designed for business leaders to understand the fundamentals of AI and how it can be applied to transform their organizations. It covers AI strategies, case studies, and ethical considerations.",
+        "category": "Business",
+        "level": "Intermediate"
+    },
+    {
+        "title": "AI and Machine Learning for Business",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-machine-learning-business",
+        "description": "This course provides an overview of how AI and machine learning can be integrated into business processes to improve efficiency and drive innovation. It includes practical examples and case studies.",
+        "category": "Business",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Generative AI for Business",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/generative-ai-business",
+        "description": "This course explores the applications of generative AI in various business contexts, including marketing, product development, and customer engagement. It also covers ethical implications and best practices.",
+        "category": "Business",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Machine Learning in Production",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/machine-learning-in-production",
+        "description": "This course focuses on deploying machine learning models in a business environment, covering the entire production pipeline from model development to monitoring and maintenance.",
+        "category": "Business",
+        "level": "Intermediate"
+    },
+    {
+        "title": "AI Transformation Strategy",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-transformation-strategy",
+        "description": "This course is designed for business leaders who want to drive AI transformation in their organizations. It covers strategic planning, implementation frameworks, and change management.",
+        "category": "Business",
+        "level": "Intermediate"
+    }
+]

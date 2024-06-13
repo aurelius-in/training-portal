@@ -8,6 +8,9 @@
 </head>
 <body>
     <header>
+        <div class="banner">
+            <h1>AI Training Portal</h1>
+        </div>
         <nav>
             <button onclick="showSection('courses')">Courses</button>
             <button onclick="showSection('tutorials')">Tutorials</button>
@@ -18,20 +21,16 @@
         <section id="courses" class="content-section">
             <h1>Courses</h1>
             <input type="text" id="searchBar" placeholder="Search for courses...">
-            <div>
+            <div class="filters">
                 <label for="categoryFilter">Category:</label>
                 <select id="categoryFilter" onchange="filterCourses()">
                     <option value="all">All</option>
-                    <option value="Introduction">Introduction</option>
-                    <option value="Generative AI">Generative AI</option>
-                    <!-- Add more categories as needed -->
+                    <!-- Categories will be populated by JavaScript -->
                 </select>
                 <label for="levelFilter">Level:</label>
                 <select id="levelFilter" onchange="filterCourses()">
                     <option value="all">All</option>
-                    <option value="Beginner">Beginner</option>
-                    <option value="Intermediate">Intermediate</option>
-                    <!-- Add more levels as needed -->
+                    <!-- Levels will be populated by JavaScript -->
                 </select>
             </div>
             <div id="courseList">

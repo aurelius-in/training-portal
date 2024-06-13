@@ -7,6 +7,23 @@ document.addEventListener('DOMContentLoaded', () => {
             const categoryFilter = document.getElementById('categoryFilter');
             const levelFilter = document.getElementById('levelFilter');
 
+            const categories = [...new Set(courses.map(course => course.category))];
+            const levels = [...new Set(courses.map(course => course.level))];
+
+            categories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categoryFilter.appendChild(option);
+            });
+
+            levels.forEach(level => {
+                const option = document.createElement('option');
+                option.value = level;
+                option.textContent = level;
+                levelFilter.appendChild(option);
+            });
+
             searchBar.addEventListener('input', filterCourses);
             categoryFilter.addEventListener('change', filterCourses);
             levelFilter.addEventListener('change', filterCourses);

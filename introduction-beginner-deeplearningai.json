@@ -1,0 +1,38 @@
+[
+    {
+        "title": "AI for Everyone",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-for-everyone",
+        "description": "This course, led by Andrew Ng, is designed for non-technical professionals and covers the impact of AI on business and society. It is free and takes about 10 hours to complete.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "Machine Learning Specialization",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/machine-learning",
+        "description": "This specialization is a beginner-friendly program that teaches the fundamentals of machine learning and how to use these techniques to build real-world AI applications. It includes multiple courses, providing a comprehensive introduction to machine learning.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "Structuring Machine Learning Projects",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/machine-learning-projects",
+        "description": "This course focuses on how to structure machine learning projects to ensure success. It is suitable for beginners and covers key strategies and best practices for working on AI projects.",
+        "category": "Introduction",
+        "level": "Beginner"
+    },
+    {
+        "title": "AI For Medical Diagnosis",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/ai-for-medical-diagnosis",
+        "description": "This course provides an introduction to AI applications in medical diagnosis, covering the basics of AI technology and its implementation in healthcare settings. It is designed for beginners.",
+        "category": "Introduction",
+        "level": "Beginner"
+    }
+]

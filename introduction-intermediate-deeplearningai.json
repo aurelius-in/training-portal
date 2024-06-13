@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Generative AI with Large Language Models",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/learn/generative-ai",
+        "description": "This course provides an in-depth understanding of generative AI, focusing on the transformer architecture that powers large language models (LLMs). It covers training, fine-tuning, and deploying LLMs for various applications.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Deep Learning Specialization",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/deep-learning",
+        "description": "This specialization helps learners understand deep learning fundamentals and build neural network architectures. It includes hands-on projects to apply deep learning in various fields.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Natural Language Processing Specialization",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/natural-language-processing",
+        "description": "This specialization covers the essential techniques in natural language processing, including sentiment analysis, machine translation, and text generation using neural networks.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "TensorFlow Developer Professional Certificate",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/tensorflow",
+        "description": "This certificate program teaches how to build and deploy deep learning models using TensorFlow. It includes courses on neural networks, computer vision, natural language processing, and time series forecasting.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Generative Adversarial Networks (GANs) Specialization",
+        "provider": "DeepLearning.AI",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/generative-adversarial-networks-gans",
+        "description": "This specialization teaches the foundations and applications of GANs, including training models to generate realistic images and augmenting datasets.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Functions, Tools and Agents with LangChain",
+        "provider": "DeepLearning.AI",
+        "platform": "DeepLearning.AI",
+        "link": "https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/",
+        "description": "This short course focuses on using LangChain Expression Language (LCEL) to build and customize conversational agents and other LLM-based applications.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    }
+]

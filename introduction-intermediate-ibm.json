@@ -1,0 +1,47 @@
+[
+    {
+        "title": "IBM AI Engineering Professional Certificate",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ai-engineering",
+        "description": "This professional certificate program covers the foundational and advanced topics in AI engineering. It includes courses on machine learning, deep learning, and using AI to solve real-world problems.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "IBM Introduction to Machine Learning Specialization",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/specializations/machine-learning",
+        "description": "This specialization provides an in-depth understanding of machine learning techniques, including supervised and unsupervised learning, and prepares learners to apply these techniques to real-world data.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "IBM AI Developer Professional Certificate",
+        "provider": "IBM",
+        "platform": "Coursera",
+        "link": "https://www.coursera.org/professional-certificates/ai-developer",
+        "description": "This certificate program equips learners with the skills needed to develop AI-powered applications using IBM Watson and other tools. It covers AI fundamentals, application development, and deployment.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Introduction to AI",
+        "provider": "IBM",
+        "platform": "Cognitive Class",
+        "link": "https://cognitiveclass.ai/courses/introduction-to-ai",
+        "description": "This course introduces the basics of AI, including its history, applications, and the fundamental concepts. It is ideal for learners who are new to AI but have a basic understanding of programming.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    },
+    {
+        "title": "Getting Started with AI",
+        "provider": "IBM",
+        "platform": "SkillsBuild",
+        "link": "https://skillsbuild.org/courses/getting-started-with-ai",
+        "description": "This course provides an overview of AI technologies and their applications in various industries. It is designed for individuals looking to understand how AI can be applied to solve business problems.",
+        "category": "Introduction",
+        "level": "Intermediate"
+    }
+]
